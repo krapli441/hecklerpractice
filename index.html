@@ -6,6 +6,12 @@
   <meta charset="utf-8">
   </head>
   <style>
+
+  html, body{
+      width: 100%;
+      height: 100%;
+  }
+
   img{
   display: block;
   margin: 0px auto;
@@ -14,17 +20,31 @@
       color:black;
       text-decoration: none;
   }
+
+  div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
   h1 {
       font-size:45px;
       text-align:center;
+      border-bottom:3px solid black;
+      margin:0;
+      padding:20px;
   }
   h2 {
     font-size:40px;
     text-align: center;
   }
-  li {
+  ul {
   font-size: 30px;
   text-align:center;
+  border:1px solid black;
+  width:220px;
+
+
   }
 </style>
 </html>
@@ -34,9 +54,16 @@
 <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/d/d6/HK_Logo.svg/220px-HK_Logo.svg.png"alt="hk_logo"width=10%><br>
 <hl>
   <strong><h2>총기 살펴보기</h2></strong>
+<hl/>
+<div>
+
+<ul>
   <li><a href="HK416.html">HK416</a></li>
   <li><a href="USP.html">USP</a></li>
   <li><a href="MP5.html">MP5</a></li>
+</ul>
 
-<hl/>
+</div>
+
+
 </body>
